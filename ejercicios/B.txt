@@ -1,0 +1,17 @@
+1. Inicio
+2. ventas(5),i[0-n]  // arreglo que debe ser llenado por el usuario
+3. ventas, i[0-n]
+4. indice, i[0-n]
+5. dias(5), x(20)[{a-z}, {BS}]
+6. dias[0,1,2,3,4]<-- ("Lunes", "Martes", "Miércoles", "Jueves", "Viernes")
+7. salida, x(1000)[{a-z}, {A-Z}, {BS}] <-- ""
+
+8. Para (indice <-- 0, indice < 5, 1) haga
+9. 	<< "Ingrese las ventas del dia " + dias[indice] + ":"
+10. 	>>  ventas[indice]
+11. 	salida <-- salida + dias[indice] + "$" + ventas[indice] + "\n"
+
+12. Fin_Para
+
+13. << salida
+14. Fin
